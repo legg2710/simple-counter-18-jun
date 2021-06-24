@@ -1,1 +1,27 @@
 @import "~bootstrap/scss/bootstrap.scss";
+
+body{
+    background-color:whitesmoke;
+}
+.app{
+    width: 100%;
+    background-color: black;
+    height: 170px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+.box{
+    display: inline-block;
+    height: 150px;
+    background-color: #808080;
+    border-radius: 10px;
+}
+.icon{
+    width: 140px;
+}
+.counter{
+    width: 100px;
+    margin-left: 10px;
+}
