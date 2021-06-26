@@ -10,10 +10,7 @@ import { SecondsCounter } from "./component/home.js";
 
 let counter = 0;
 
-setInterval(function() {
-	ReactDOM.render(
-		<SecondsCounter seconds={counter} />,
-		document.getElementById("#app")
-	);
-	counter += 1;
-}, 1000);
+ReactDOM.render(
+	<SecondsCounter seconds={counter} />,
+	document.querySelector("#app")
+);
