@@ -6,22 +6,25 @@ body{
 .app{
     width: 100%;
     background-color: black;
-    height: 170px;
+    height: 180px;
     color: white;
-    font-size: 100px;
+    font-size: 110px;
     text-align: center;
     padding-top: 10px;
+
 }
 .box{
     display: inline-block;
-    height: 150px;
     background-color: black;
+    height: 160px;
     border-radius: 10px;
-}
-.icon{
-    width: 140px;
-}
+
 .counter{
     width: 100px;
     margin-left: 10px;
+}
+
+}
+.digit{
+    width: 170px;
 }
